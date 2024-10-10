@@ -1,0 +1,49 @@
+.sign-up-main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 35px;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up-deatils-container {
+  margin: 10px;
+}
+.sign-up-label-name {
+  padding-right: 78px;
+}
+.sign-up-label-phone {
+  padding-right: 10px;
+}
+.sign-up-label-email {
+  padding-right: 78px;
+}
+.sign-up-label-password {
+  padding-right: 50px;
+}
+.sign-up-input {
+  padding: 8px;
+  border-radius: 10px;
+}
+.sign-up-button {
+  padding: 8px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.sign-up-button-container {
+  margin: 10px;
+}
+.sign-up-button:hover {
+  background-color: black;
+  color: white;
+}
